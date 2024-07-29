@@ -28,7 +28,7 @@ public class LandingPage extends AbstractComponent {
 	@FindBy(id = "login")
 	WebElement submit;
 	
-	@FindBy(css = "class*='flyInOut'")
+	@FindBy(xpath = "//div[@aria-label='Incorrect email or password.']")
 	WebElement errorMessage;
 
 	public ProductCatalogue loginApplication(String email, String password) {
