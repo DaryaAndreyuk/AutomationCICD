@@ -35,8 +35,6 @@ public class BaseTest {
 
 	public WebDriver initializeDriver() throws IOException {
 
-		// properties class
-
 		Properties properties = new Properties();
 		FileInputStream fileInputStream = new FileInputStream(System.getProperty("user.dir")
 				+ "\\src\\main\\java\\rahulshettyacademy\\resources\\GlobalData.properties");
@@ -107,5 +105,4 @@ public class BaseTest {
 		FileUtils.copyFile(source, outputFile);
 		return pathName;
 	}
-
 }
