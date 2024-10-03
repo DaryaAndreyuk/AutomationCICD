@@ -7,20 +7,14 @@
 			<include name="ErrorHandling" />
 		</run>
 	</groups>
-
-
 	<test thread-count="5" name="Submit Order Test">
 		<classes>
 			<class name="rahulshettyacademy.tests.SubmitOrderTest" />
 		</classes>
-	</test> <!--
-	Test -->
-
+	</test>
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="rahulshettyacademy.tests.ValidationErrorTest" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test>
+</suite> 
