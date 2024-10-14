@@ -54,7 +54,6 @@ public class BaseTest {
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			// driver setup for firefox
 			WebDriverManager.firefoxdriver().setup();
-
 			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
