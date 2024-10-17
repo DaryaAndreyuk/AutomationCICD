@@ -16,6 +16,7 @@ import rahulshettyacademy.pageobjects.LandingPage;
 import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class StepDefinitionImplementation extends BaseTest {
+	
 	public LandingPage landingPage;
 	public ProductCatalogue productCatalogue;
 	public ConfirmationPage confirmationPage;
